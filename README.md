@@ -5,7 +5,7 @@
 
 AWX provides a web-based user interface, REST API, and task engine built on top of [Ansible](https://github.com/ansible/ansible). It is one of the upstream projects for [Red Hat Ansible Automation Platform](https://www.ansible.com/products/automation-platform).
 
-To install AWX, sudo?
+To install AWX, as sudo.
  - pip3 install sphinx sphinxcontrib-autoprogram
  - pip3 install awxkit
  - awx --help
