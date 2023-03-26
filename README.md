@@ -9,6 +9,7 @@ To install AWX, as sudo.
  - pip3 install sphinx sphinxcontrib-autoprogram
  - pip3 install awxkit
  - awx --help
+ - pip3 install -r requirements/requirements_dev.txt
  
 
 To learn more about using AWX, and Tower, view the [Tower docs site](http://docs.ansible.com/ansible-tower/index.html).
