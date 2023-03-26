@@ -8,9 +8,14 @@ AWX provides a web-based user interface, REST API, and task engine built on top 
 To install AWX, as sudo.
  - gh repo clone higorvaz/ansible-awx-ui
  - cd ansible-awx-ui
- - pip3 install sphinx sphinxcontrib-autoprogram
  - pip3 install awxkit
  - awx --help
+ - apt install -y nodejs npm
+ - npm install
+ - /usr/bin/python3 -m pip install --upgrade pip
+ - pip3 install requests
+ - pip3 install docker-compose
+ - pip3 install sphinx sphinxcontrib-autoprogram
  - apt install python3-ldap
  - pip3 install -r requirements/requirements_dev.txt
  - apt install python3-xmlsec
