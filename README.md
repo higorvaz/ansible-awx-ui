@@ -6,10 +6,14 @@
 AWX provides a web-based user interface, REST API, and task engine built on top of [Ansible](https://github.com/ansible/ansible). It is one of the upstream projects for [Red Hat Ansible Automation Platform](https://www.ansible.com/products/automation-platform).
 
 To install AWX, as sudo.
+ - gh repo clone higorvaz/ansible-awx-ui
+ - cd ansible-awx-ui
  - pip3 install sphinx sphinxcontrib-autoprogram
  - pip3 install awxkit
  - awx --help
+ - apt install python3-ldap
  - pip3 install -r requirements/requirements_dev.txt
+ - pip3 install -r requirements/requirements.txt
  
 
 To learn more about using AWX, and Tower, view the [Tower docs site](http://docs.ansible.com/ansible-tower/index.html).
