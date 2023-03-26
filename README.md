@@ -13,6 +13,7 @@ To install AWX, as sudo.
  - awx --help
  - apt install python3-ldap
  - pip3 install -r requirements/requirements_dev.txt
+ - apt install python3-xmlsec
  - pip3 install -r requirements/requirements.txt
  
 
