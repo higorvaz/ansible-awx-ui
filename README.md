@@ -19,6 +19,8 @@ To install AWX, as sudo.
  - apt install python3-ldap
  - pip3 install -r requirements/requirements_dev.txt
  - apt install python3-xmlsec
+ - PIP_USE_DEPRECATED=legacy-resolver 
+ - python3 -m pip install --upgrade pip
  - pip3 install -r requirements/requirements.txt
  
 
