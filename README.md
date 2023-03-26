@@ -17,12 +17,19 @@ To install AWX, as sudo.
  - pip3 install docker-compose
  - pip3 install sphinx sphinxcontrib-autoprogram
  - apt install python3-ldap
+ - pip3 check
  - pip3 install -r requirements/requirements_dev.txt
  - apt install python3-xmlsec
  - PIP_USE_DEPRECATED=legacy-resolver 
  - python3 -m pip install --upgrade pip
  - pip3 install -r requirements/requirements.txt
- 
+ - pwgen -N 1 -s 30
+  - -- nano inventory
+ - apt install docker.io
+ - systemctl enable docker
+ - apt install curl
+ - chmod +x /usr/local/bin/docker-compose
+ - docker-compose -version
 
 To learn more about using AWX, and Tower, view the [Tower docs site](http://docs.ansible.com/ansible-tower/index.html).
 
